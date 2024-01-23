@@ -13,7 +13,7 @@ spec:
         app: myservice
     spec:
       containers:
-        - image: malikilinux/myservice:1
+        - image: malikilinux/myservice:latest
           imagePullPolicy: IfNotPresent
           name: myservice
       restartPolicy: Always
